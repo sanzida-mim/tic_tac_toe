@@ -10,9 +10,9 @@ body {
 }
 
 h1 {
-    margin: 1rem 0;
+    margin-top: 1rem;
     color: navajowhite;
-    font-size: 8vmin;
+    font-size: 6vmin;
 }
 
 .container {
@@ -23,7 +23,7 @@ h1 {
 }
 
 .game {
-    height: 60vmin;
+    height: 50vmin;
     width: 60vmin;
     display: flex;
     align-items: center;
@@ -56,9 +56,19 @@ h1 {
     border-radius: 1rem;
     border: none;
     transition: transform 0.3s ease;
+    margin-bottom: 0.5em;
 }
 
 #reset-btn:hover {
     cursor: pointer;
     transform: scale(1.15);
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #548687;
+    color: navajowhite;
+    margin-top: 2rem;
 }
