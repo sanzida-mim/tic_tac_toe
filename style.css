@@ -9,6 +9,12 @@ body {
     text-align: center;
 }
 
+h1 {
+    margin: 1rem 0;
+    color: navajowhite;
+    font-size: 8vmin;
+}
+
 .container {
     height: 70vh;
     display: flex;
@@ -34,6 +40,12 @@ body {
     box-shadow: 0 0 1rem rgba(0,0,0,0.5);
     font-size: 8vmin;
     color: #b0413e;
+    transition: box-shadow 0.2s ease;
+}
+
+.box:hover, .box:focus {
+    cursor: pointer;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 1.5);
 }
 
 #reset-btn {
@@ -43,4 +55,10 @@ body {
     color: white;
     border-radius: 1rem;
     border: none;
+    transition: transform 0.3s ease;
+}
+
+#reset-btn:hover {
+    cursor: pointer;
+    transform: scale(1.15);
 }
