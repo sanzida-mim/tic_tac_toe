@@ -67,7 +67,12 @@ h1 {
 }
 
 .msg-container {
-    height: 30vmin;
+    height: 100vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 4rem;
 }
 
 #reset-btn {
@@ -92,7 +97,7 @@ footer {
     justify-content: center;
     background: #548687;
     color: navajowhite;
-    margin-top: 10vmin;
+    margin: 10vmin 0 2vmin 0;
 }
 
 .hide {
