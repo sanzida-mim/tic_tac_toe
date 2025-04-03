@@ -10,9 +10,10 @@ body {
 }
 
 h1 {
-    margin-top: 1rem;
-    color: navajowhite;
+    color: #ffffc7;
     font-size: 6vmin;
+    height: 5vmin;
+    margin-top: 2vmin;
 }
 
 .container {
@@ -49,6 +50,26 @@ h1 {
     box-shadow: 0 0 1rem rgba(0, 0, 0, 1.5);
 }
 
+#new-btn {
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: #191913;
+    color: #fff;
+    border-radius: 1rem;
+    border: none;
+    margin-top: 2vmin;
+}
+
+#msg {
+    color: #ffffc7;
+    font-size: 8vmin;
+    margin-top: 2vmin;
+}
+
+.msg-container {
+    height: 30vmin;
+}
+
 #reset-btn {
     padding: 1rem;
     font-size: 1.5rem;
@@ -71,5 +92,9 @@ footer {
     justify-content: center;
     background: #548687;
     color: navajowhite;
-    margin-top: 2rem;
+    margin-top: 10vmin;
+}
+
+.hide {
+    display: none;
 }
